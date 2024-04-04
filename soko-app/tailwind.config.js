@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'about-1':"url('./src/assets/about-page_1.jpg')",
+        'in-form':"url('./src/assets/in-form.jpg')",
       },
       fontFamily: {
         'ojuju': ['Ojuju'],
