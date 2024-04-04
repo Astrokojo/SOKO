@@ -1,9 +1,9 @@
-import Header from '../components/header'
+import HeaderSm from '../components/header'
 
 function Home() {
     return ( 
         <div>
-            <Header/>
+            <HeaderSm/>
             
             <h1>Hello</h1>
         </div>

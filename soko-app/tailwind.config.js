@@ -9,7 +9,8 @@ module.exports = {
       },
       fontFamily: {
         'ojuju': ['Ojuju'],
-        'monkey': ['Happy Monkey']
+        'monkey': ['Happy Monkey'],
+        'roboto': ['Roboto']
       }
     },
   },
