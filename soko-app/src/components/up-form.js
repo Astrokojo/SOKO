@@ -4,18 +4,19 @@ import HeaderSm from "./header";
 export default function UpForm () {
     return (
         <div className="bg-white px-3 sm:px-6 py-6 mt-4 rounded-lg sm:rounded-2xl md:rounded-3xl font-roboto">
-            <div className="lg:hidden">
+            <div className="lg:hidden ">
                 <HeaderSm/>
             </div>
 
             <p className="text-center text-2xl lg:text-3xl font-bold font-[roboto]">Sign Up</p>
-            <div className="mt-6">
+            <form className="mt-6">
                 <div>
                     <label className="text-lg font-medium">Email</label>
                     <input
                     className="w-full border-2 border-gray-100 p-1 md:p-4 rounded-xl mt-1 bg-transparent"
                     placeholder="Enter email address"
                     type="text"
+                    required
                     />
                 </div>
                 <div className="mt-2">
@@ -24,6 +25,7 @@ export default function UpForm () {
                     className="w-full border-2 border-gray-100 p-1 md:p-4 rounded-xl mt-1 bg-transparent "
                     placeholder="Enter password"
                     type="password"
+                    required
                     />
                 </div>
                 <div className="mt-2">
@@ -32,6 +34,7 @@ export default function UpForm () {
                     className="w-full border-2 border-gray-100 p-1 md:p-4 rounded-xl mt-1 bg-transparent "
                     placeholder="Confirm password"
                     type="password"
+                    required
                     />
                 </div>
                 <div className="justify-between px-2 mt-4 sm:mt-8">
@@ -44,11 +47,11 @@ export default function UpForm () {
                 </div>
 
                 <div className="flex flex-col gap-y-4 mt-4">
-                    <button className="active:scale-[.95] active:duration-75 hover:scale-[1.02] transition-transform ease-in-out border-2 border-gray-200 bg-[#588157] text-white py-2 font-bold rounded-xl">Sign Up</button>
+                    <button type="submit" className="active:scale-[.95] active:duration-75 hover:scale-[1.02] transition-transform ease-in-out border-2 border-gray-200 bg-[#588157] text-white py-2 font-bold rounded-xl">Sign Up</button>
                     <button className="active:scale-[.95] active:duration-75 hover:scale-[1.02] transition-transform ease-in-out border-2 border-gray-200 py-2 font-bold rounded-xl">Sign up with Google</button>
                 </div>
+            </form>
                 <p className="mt-4 text-center font-medium text-md">Already have an account? <span className="text-[#588157]"><a href="/sign_in">Sign in</a></span></p>
-            </div>
         </div>
       );
 }

@@ -11,7 +11,7 @@ export default function HeaderSm() {
                         <a href="Home" className="text-white no-underline sm:hover font-[ojuju] cursor-default"> SOKO </a> 
                     </h1>
                 </div>
-                <ul className="flex gap-2 sm:gap-6 sm:text-2xl font-medium font-[roboto] list-none pb-4">
+                <ul className="flex gap-4 sm:gap-6 sm:text-2xl font-medium font-[roboto] list-none pb-4">
                     <li className="md:hover:scale-[1.1]  transition-transform ease-in"><a href="/home">Home</a></li>
                     <li className="md:hover:scale-[1.1]  transition-transform ease-in"><a href="/about">About</a></li>
                 </ul>
