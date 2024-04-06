@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 import random
 
-db_url = "sqlite:///products.db"
+db_url = "sqlite:///soko.db"
 engine = create_engine(db_url)
 
 Base = declarative_base()
