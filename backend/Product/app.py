@@ -58,5 +58,7 @@ def delete_all():
     session.close()
     return "All products deleted successfully"
 
+
+
 if __name__ == '__main__':
     app.run(debug=True) # will remove debug=True in production
