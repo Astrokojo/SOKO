@@ -25,7 +25,7 @@ function About() {
                 <section data-aos="fade-up" className=' m-auto md:flex  md:justify-between md:border-2 md:w-full border-l-gray-300 border-white rounded-xl bg-white/20 lg:px-8 lg:py-8 '>
                     <div className=' md:flex md:px-4 md:py-6 md:justify-center flex-col'>
                         <h1 className='font-bold text-2xl md:text-6xl font-roboto'>Welcome to <span className='font-ojuju font-bolder text-green-500 '>SOKO</span></h1>
-                        <p className='mt-2 md:pt-6 pl-2 md:pl-16 max-w-xs  md:max-w-md font-monkey md:text-2xl text-left'>Your online farmer's market, accessible from the comfort of your home or workplace</p>
+                        <p className='mt-2 md:pt-6 pl-2 md:pl-16 max-w-xs  md:max-w-md font-monkey md:text-2xl text-left'>Your online farmers market, accessible from the comfort of your home or workplace</p>
                     </div>
                     
                     {/* Image */}
