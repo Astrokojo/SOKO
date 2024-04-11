@@ -37,15 +37,15 @@ function About() {
                 </section>
                 
                 <section data-aos="fade-up" className='m-auto md:flex  md:justify-between md:border-2 md:w-full border-l-gray-300 border-white rounded-xl bg-white/20 lg:px-8 lg:py-8 '>
+                    {/* Image */}
+                    <div>
+                        <img loading='lazy' src={image2} className='w-[700px] max-h-[700px] rounded-lg' alt='Brown haired woman holding up freshly-picked strawberries on a farm' />
+                    </div>
                     <div className='md:flex md:px-4 md:py-6 md:justify-center flex-col'>
                         <h1 className='font-bold text-2xl md:text-4xl font-roboto'>Purpose</h1>
                         <p className='mt-2 md:pt-6 pl-2 md:pl-16 max-w-xs  md:max-w-md font-monkey md:text-2xl text-left'>Bridging the gap between farmers and consumers</p>
                     </div>
                     
-                    {/* Image */}
-                    <div>
-                        <img loading='lazy' src={image2} className='w-[700px] max-h-[700px] rounded-lg' alt='Brown haired woman holding up freshly-picked strawberries on a farm' />
-                    </div>
 
                 </section>
                 
@@ -68,6 +68,10 @@ function About() {
 
 
                 <section data-aos="fade-up" className='m-auto md:flex  md:justify-between md:border-2 md:w-full border-l-gray-300 border-white rounded-xl bg-white/20 lg:px-8 lg:py-8 '>
+                    {/* Image */}
+                    <div>
+                        <img loading='lazy' src={image4} className='w-[700px] max-h-[700px] rounded-lg' alt='mother and daughter eating fruits in a field' />
+                    </div>
                      <div className='md:flex md:px-4 md:py-6 md:justify-center flex-col'>
                         <h1 className='font-bold text-2xl md:text-4xl font-roboto'>Join the <span className='font-ojuju text-green-700'>SOKO</span> vibe</h1>
                         <p className='mt-2 md:pt-6 pl-2 md:pl-16 max-w-xs  md:max-w-md font-monkey md:text-2xl text-left'>
@@ -79,10 +83,6 @@ function About() {
                         </a>    
                     </div>
                     
-                    {/* Image */}
-                    <div>
-                        <img loading='lazy' src={image4} className='w-[700px] max-h-[700px] rounded-lg' alt='mother and daughter eating fruits in a field' />
-                    </div>
 
                 </section>
 
