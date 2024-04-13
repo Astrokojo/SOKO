@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fed6c214.css",
+    "main.js": "/static/js/main.80790fe8.js",
+    "static/js/453.a7648e53.chunk.js": "/static/js/453.a7648e53.chunk.js",
+    "static/media/eating_together.jpg": "/static/media/eating_together.c9e2c0b769a4b205df28.jpg",
+    "static/media/fruit_to_basket.jpg": "/static/media/fruit_to_basket.19bd7906f31b0314755e.jpg",
+    "static/media/about-page_1.jpg": "/static/media/about-page_1.f174b7c6790b47c30d80.jpg",
+    "static/media/showing_strawberry.jpg": "/static/media/showing_strawberry.c0692be1542315051b63.jpg",
+    "index.html": "/index.html",
+    "main.fed6c214.css.map": "/static/css/main.fed6c214.css.map",
+    "main.80790fe8.js.map": "/static/js/main.80790fe8.js.map",
+    "453.a7648e53.chunk.js.map": "/static/js/453.a7648e53.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fed6c214.css",
+    "static/js/main.80790fe8.js"
+  ]
+}
