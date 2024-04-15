@@ -6,10 +6,14 @@ from Cart.routes import cart_bp
 app.register_blueprint(product_bp)
 app.register_blueprint(cart_bp)
 
-
-if __name__ == "__main__":
-    with app.app_context():
-        create_sample()
-        Base.metadata.create_all(engine)
+@app.before_request
+def initialize_database():
+    """Create database and add sample data"""
+    Base.metadata.create_all(engine)
+    create_sample()
     
+    
+initialize_database()
+
+if __name__ == "__main__":    
     app.run()
