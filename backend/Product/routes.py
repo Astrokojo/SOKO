@@ -6,6 +6,11 @@ import random
 #Creates a blueprint object for the product package that will be used in main.py
 product_bp = Blueprint('product', __name__)
 
+@product_bp.route('/', methods=['GET'])
+def home_page():
+    return jsonify({"message": "Welcome to Soko"})
+    
+    
 @product_bp.route('/products', methods=['GET'])
 def get_products():
     """Gets all the products from the database"""
