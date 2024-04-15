@@ -13,6 +13,10 @@ CORS(app)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///soko.db"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
+# Set the secret key
+app.config['SECRET_KEY'] = 'f940fb9004521524be6a10b601baa522'
+
+
  # Create SQLALchemy engine to access database
 engine = create_engine(app.config["SQLALCHEMY_DATABASE_URI"])
 
