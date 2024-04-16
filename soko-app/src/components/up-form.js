@@ -9,31 +9,35 @@ export default function UpForm () {
             </div>
 
             <p className="text-center text-2xl lg:text-3xl font-bold font-[roboto]">Sign Up</p>
+
             <form className="mt-6">
                 <div>
-                    <label className="text-lg font-medium">Email</label>
+                    <label className="text-lg font-medium" for='email'>Email</label>
                     <input
                     className="w-full border-2 border-gray-100 p-1 md:p-4 rounded-xl mt-1 bg-transparent"
                     placeholder="Enter email address"
                     type="text"
+                    id="email"
                     required
                     />
                 </div>
                 <div className="mt-2">
-                    <label className="text-lg font-medium">Password</label>
+                    <label className="text-lg font-medium" for='password'>Password</label>
                     <input
                     className="w-full border-2 border-gray-100 p-1 md:p-4 rounded-xl mt-1 bg-transparent "
                     placeholder="Enter password"
                     type="password"
+                    id="password"
                     required
                     />
                 </div>
                 <div className="mt-2">
-                    <label className="text-lg font-medium">Confirm Password</label>
+                    <label className="text-lg font-medium" for='confPassword'>Confirm Password</label>
                     <input
                     className="w-full border-2 border-gray-100 p-1 md:p-4 rounded-xl mt-1 bg-transparent "
                     placeholder="Confirm password"
                     type="password"
+                    id='confPassword'
                     required
                     />
                 </div>

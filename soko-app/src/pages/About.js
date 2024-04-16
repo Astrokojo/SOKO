@@ -43,7 +43,9 @@ function About() {
                     </div>
                     <div className='md:flex md:px-4 md:py-6 md:justify-center flex-col'>
                         <h1 className='font-bold text-2xl md:text-4xl font-roboto'>Purpose</h1>
-                        <p className='mt-2 md:pt-6 pl-2 md:pl-16 max-w-xs  md:max-w-md font-monkey md:text-2xl text-left'>Bridging the gap between farmers and consumers</p>
+                        <p className='mt-2 md:pt-6 pl-2 md:pl-16 max-w-xs  md:max-w-md font-monkey md:text-2xl text-left'>
+                            Our main goal is to bridge the gap between farmers and consumers as well as improve the general well-being of our members by making health and fresh products readily available by the click of a few buttons
+                        </p>
                     </div>
                     
 
@@ -53,9 +55,9 @@ function About() {
                 <section data-aos="fade-up" className='m-auto md:flex  md:justify-between md:border-2 md:w-full border-l-gray-300 border-white rounded-xl bg-white/20 lg:px-8 lg:py-8 '>
                      <div className='md:flex md:px-4 md:py-6 md:justify-center flex-col'>
                         <h1 className='font-bold text-2xl md:text-4xl font-roboto'>Online Grocery Store</h1>
-                        <p className='mt-2 md:pt-6 pl-2 md:pl-16 max-w-xs  md:max-w-md font-monkey md:text-2xl text-left'><span className='text-green-500 underline'>Fresh,</span> organic produce, from the farm, directly into your basket</p>
+                        <p className='mt-2 md:pt-6 pl-2 md:pl-16 max-w-xs  md:max-w-md font-monkey md:text-2xl text-left'><span className='text-green-500 underline'>Fresh,</span> organic produce, from the farm, directly into your basket, at any time, and anywhere. Wanna give it a whirl?? Then👇🏽👇🏽</p>
 
-                        <button className='active:scale-[.95] active:duration-75 hover:border-[#2dfe54] hover:text-3xl hover:border-4 hover:scale-[1.03] transition-transform ease-in-out mt-4 lg:mt-16 rounded-3xl border-4 p-2 border-white border-b-green-300 text-white text-lg md:text-2xl bg-green-700 font-bold font-ojuju'>Shop Now</button>
+                        <button className='active:scale-[.95] active:duration-75 hover:border-[#2dfe54] hover:text-3xl hover:border-4 hover:scale-[1.03] transition-transform ease-in-out mt-4 lg:mt-16 rounded-3xl border-4 p-2 border-white border-b-green-300 text-white text-lg md:text-2xl bg-green-700 font-bold font-ojuju animate-pulse'>Shop Now</button>
                     </div>
                     
                     {/* Image */}
@@ -79,7 +81,9 @@ function About() {
                             Join the community to start living a healthier life today.
                         </p>
                         <a href='sign_up'>
-                            <button className='active:scale-[.95] active:duration-75 hover:scale-[1.02] hover:border-[#2dfe54] hover:text-3xl transition-transform ease-in-out mt-4 lg:mt-16 rounded-3xl border-4 p-2 border-white border-b-green-300 text-white text-lg md:text-2xl bg-green-700 font-bold font-ojuju w-full'>Sign Up</button>
+                            <button className='relative active:scale-[.95] active:duration-75 hover:scale-[1.02] hover:border-[#2dfe54] hover:text-3xl transition-transform ease-in-out mt-4 lg:mt-16 rounded-2xl border-4 p-2 border-white border-b-green-300 text-white text-lg md:text-2xl bg-green-700 font-bold font-ojuju w-full'>Sign Up
+                                <div className='absolute -top-1 -left-1 w-[15px] h-[15px] rounded-full bg-green-800 animate-ping'></div>
+                            </button>
                         </a>    
                     </div>
                     

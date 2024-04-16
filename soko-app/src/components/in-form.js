@@ -11,8 +11,9 @@ export default function InForm () {
             <p className="text-center text-2xl lg:text-3xl font-medium mt-8 lg:mt-12">Sign In</p>
             <form className="mt-4 lg:mt-6">
                 <div>
-                    <label className="text-lg font-medium">Email</label>
+                    <label className="text-lg font-medium" for='email'>Email</label>
                     <input
+                    id='email'
                     className="w-full border-2 border-gray-100 p-2 md:p-4 rounded-xl mt-1 bg-transparent"
                     placeholder="Enter email address"
                     type="text"
@@ -20,11 +21,12 @@ export default function InForm () {
                     />
                 </div>
                 <div className="mt-2">
-                    <label className="text-lg font-medium">Password</label>
+                    <label className="text-lg font-medium" for='password'>Password</label>
                     <input
                     className="w-full border-2 border-gray-100 p-2 md:p-4 rounded-xl mt-1 bg-transparent "
                     placeholder="Enter password"
                     type="password"
+                    id='password'
                     required
                     />
                 </div>
