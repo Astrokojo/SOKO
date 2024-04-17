@@ -19,22 +19,28 @@ function About() {
             <div className='position sticky top-5 z-10'>
                 <NavBar/>
             </div>
-        
+
+
+            {/* Info sections */}
             <div className='flex flex-col gap-6 md:gap-10 lg:gap-16 mt-6 md:mt-10 lg:mt-16 mx-2 md:mx-6 lg:mx-10 text-lg z-0'>
 
-                <section data-aos="fade-up" className=' m-auto md:flex  md:justify-between md:border-2 md:w-full border-l-gray-300 border-white rounded-xl bg-white/20 lg:px-8 lg:py-8 '>
+                {/* Welcome to Soko */}
+
+                <section data-aos="fade-up" className=' h-[80vh] m-auto md:flex  md:justify-between md:border-2 md:w-full border-l-gray-300 border-white rounded-xl bg-white/20 lg:px-8 lg:py-8 '>
                     <div className=' md:flex md:px-4 md:py-6 md:justify-center flex-col'>
                         <h1 className='font-bold text-2xl md:text-6xl font-roboto'>Welcome to <span className='font-ojuju font-bolder text-green-500 '>SOKO</span></h1>
                         <p className='mt-2 md:pt-6 pl-2 md:pl-16 max-w-xs  md:max-w-md font-monkey md:text-2xl text-left'>Your online farmers market, accessible from the comfort of your home or workplace</p>
                     </div>
                     
                     {/* Image */}
-                    <div className='pr-4'>
-                        <img loading='lazy' src={image1} className='w-[700px] max-h-[700px] rounded-lg' alt='little girl holding a basket of eggplants' />
+                    <div className='pr-4 max-w-[700px] max-h-[700px]'>
+                        <img loading='eager' src={image1} className='w-[700px] max-h-[700px] rounded-lg' alt='little girl holding a basket of eggplants' />
 
                     </div>
     
                 </section>
+
+                {/* Purpose Section */}
                 
                 <section data-aos="fade-up" className='m-auto md:flex  md:justify-between md:border-2 md:w-full border-l-gray-300 border-white rounded-xl bg-white/20 lg:px-8 lg:py-8 '>
                     {/* Image */}
@@ -52,6 +58,8 @@ function About() {
                 </section>
                 
 
+                {/* Online Grocery Store heading and infor */}
+
                 <section data-aos="fade-up" className='m-auto md:flex  md:justify-between md:border-2 md:w-full border-l-gray-300 border-white rounded-xl bg-white/20 lg:px-8 lg:py-8 '>
                      <div className='md:flex md:px-4 md:py-6 md:justify-center flex-col'>
                         <h1 className='font-bold text-2xl md:text-4xl font-roboto'>Online Grocery Store</h1>
@@ -67,7 +75,7 @@ function About() {
 
                 </section>
                 
-
+                {/* Join the Community Section */}
 
                 <section data-aos="fade-up" className='m-auto md:flex  md:justify-between md:border-2 md:w-full border-l-gray-300 border-white rounded-xl bg-white/20 lg:px-8 lg:py-8 '>
                     {/* Image */}
@@ -87,6 +95,132 @@ function About() {
                         </a>    
                     </div>
                     
+
+                </section>
+
+
+                {/* Team info section */}
+
+                <section data-aos="flip" className='md:mb-8 mx-auto'>
+                    {/* Team soko heading */}
+                    <div className='flex justify-center'>
+                        <h1 className='font-monkey font-bold text-5xl pb-2 border-b-4 border-green-600 '>✨Team Soko🍃</h1>
+                    </div>
+
+                    {/* Person grid boxes main container*/}
+                    <div className='grid grid-cols-3 md:gap-24 md:mt-6 font-roboto text-white font-semibold'>
+
+                        {/* Individual boxes */}
+
+                        {/* Nii */}
+                        <div className='bg-green-700 backdrop-blur-lg px-2 py-4 rounded-lg min-w-[200px] min-h-[600px] '>
+
+                            <div className='flex flex-col max-w-[380px] gap-8 justify-between items-center bg-white/10 backdrop-blur-lg rounded-lg h-full'>
+
+                                <div className='flex justify-between gap-12 py-4 px-6 rounded-lg border-2 border-black w-full'>
+                                    <div className='w-[120px] h-[120px]  rounded-full border-2 border-gray-500 bg-white'></div> 
+                                    <h1 className='font-bold text-4xl self-center font-ojuju'>NOEL</h1>
+                                </div>
+
+                                {/*Role*/}
+                                <div className='flex justify-between items-center py-4 px-6 bg-white rounded-lg w-full hover:scale-[1.02] hover:border-gray-300 transition-transform ease-in-out'>
+                                    <h1 className='font-roboto text-3xl font-bold text-green-500 '>Role:</h1>
+                                    <ul className='font-monkey text-xl text-gray-700 self-end'>
+                                        <li>Front-end Dev</li>
+                                        <li>Founder</li>
+                                    </ul>
+                                </div>
+                                {/*Socials (Github Email LinkedIn)*/}
+                                <div className='flex justify-between gap-12 py-4 px-6 bg-white rounded-lg w-full hover:scale-[1.02] hover:border-gray-300 transition-transform ease-in-out'>
+                                    <h1 className='font-roboto text-3xl font-bold text-green-500'>Socials:</h1>
+                                    <ul className='font-monkey text-xl font-semibold text-gray-700 self-end'>
+                                        <li><a>Github</a></li>
+                                        <li><a>LinkedIn</a></li>
+                                        <li><a>Email</a></li>
+                                    </ul>
+                                </div>
+                                <div className='flex justify-between gap-12 py-4 px-6 bg-white rounded-lg w-full hover:scale-[1.02] hover:border-gray-300 transition-transform ease-in-out'>
+                                    <h1 className='font-roboto text-3xl font-bold text-green-500'>About:</h1>
+                                    <p className='font-monkey text-sm max-w-xs font-semibold text-gray-700 self-end'>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* KAOS */}
+                        <div className='bg-green-700 backdrop-blur-lg px-2 py-4 rounded-lg min-w-[200px] min-h-[600px]'>
+
+                            <div className='flex flex-col max-w-[380px] gap-8 justify-between items-center bg-white/10 backdrop-blur-lg rounded-lg h-full'>
+
+                                <div className='flex justify-between gap-12 py-4 px-6 rounded-lg border-2 border-black w-full'>
+                                    <div className='w-[120px] h-[120px]  rounded-full border-2 border-gray-500 bg-white'></div> 
+                                    <h1 className='font-bold text-4xl self-center font-ojuju'>KAOS</h1>
+                                </div>
+
+                                {/*Role*/}
+                                <div className='flex justify-between items-center py-4 px-6 bg-white rounded-lg w-full hover:scale-[1.02] hover:border-gray-300 transition-transform ease-in-out'>
+                                    <h1 className='font-roboto text-3xl font-bold text-green-500 '>Role:</h1>
+                                    <ul className='font-monkey text-xl text-gray-700 self-end'>
+                                        <li>Backend Dev</li>
+                                        <li>Technical Lead</li>
+                                    </ul>
+                                </div>
+                                {/*Socials (Github Email LinkedIn)*/}
+                                <div className='flex justify-between gap-12 py-4 px-6 bg-white rounded-lg w-full hover:scale-[1.02] hover:border-gray-300 transition-transform ease-in-out'>
+                                    <h1 className='font-roboto text-3xl font-bold text-green-500'>Socials:</h1>
+                                    <ul className='font-monkey text-xl font-semibold text-gray-700 self-end'>
+                                        <li><a>Github</a></li>
+                                        <li><a>LinkedIn</a></li>
+                                        <li><a>Email</a></li>
+                                    </ul>
+                                </div>
+                                <div className='flex justify-between gap-12 py-4 px-6 bg-white rounded-lg w-full hover:scale-[1.02] hover:border-gray-300 transition-transform ease-in-out'>
+                                    <h1 className='font-roboto text-3xl font-bold text-green-500'>About:</h1>
+                                    <p className='font-monkey text-sm max-w-xs font-semibold text-gray-700 self-end'>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Abdullahi */}
+                        <div className='bg-green-700 backdrop-blur-lg px-2 py-4 rounded-lg min-w-[200px] min-h-[600px] '>
+
+                            <div className='flex flex-col max-w-[380px] gap-8 justify-between items-center bg-white/10 backdrop-blur-lg rounded-lg h-full'>
+
+                                <div className='flex justify-between gap-12 py-4 px-6 rounded-lg border-2 border-black w-full'>
+                                    <div className='w-[120px] h-[120px]  rounded-full border-2 border-gray-500 bg-white'></div> 
+                                    <h1 className='font-bold text-4xl self-center font-ojuju'>Abdullahi</h1>
+                                </div>
+
+                                {/*Role*/}
+                                <div className='flex justify-between items-center py-4 px-6 bg-white rounded-lg w-full hover:scale-[1.02] hover:border-gray-300 transition-transform ease-in-out'>
+                                    <h1 className='font-roboto text-3xl font-bold text-green-500 '>Role:</h1>
+                                    <ul className='font-monkey text-xl text-gray-700 self-end'>
+                                        <li>DevOps Engineer</li>
+                                        <li>Project Manager</li>
+                                    </ul>
+                                </div>
+                                {/*Socials (Github Email LinkedIn)*/}
+                                <div className='flex justify-between gap-12 py-4 px-6 bg-white rounded-lg w-full hover:scale-[1.02] hover:border-gray-300 transition-transform ease-in-out'>
+                                    <h1 className='font-roboto text-3xl font-bold text-green-500'>Socials:</h1>
+                                    <ul className='font-monkey text-xl font-semibold text-gray-700 self-end'>
+                                        <li><a>Github</a></li>
+                                        <li><a>LinkedIn</a></li>
+                                        <li><a>Email</a></li>
+                                    </ul>
+                                </div>
+                                <div className='flex justify-between gap-12 py-4 px-6 bg-white rounded-lg w-full hover:scale-[1.02] hover:border-gray-300 transition-transform ease-in-out'>
+                                    <h1 className='font-roboto text-3xl font-bold text-green-500'>About:</h1>
+                                    <p className='font-monkey text-sm max-w-xs font-semibold text-gray-700 self-end'>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
 
                 </section>
 
