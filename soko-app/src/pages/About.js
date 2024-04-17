@@ -4,6 +4,8 @@ import image1 from '../assets/about-page_1.jpg'
 import image2 from '../assets/showing_strawberry.jpg'
 import image3 from '../assets/fruit_to_basket.jpg'
 import image4 from '../assets/eating_together.jpg'
+import noel from '../assets/nii-profile.jpeg'
+import kaos from '../assets/kaos.jpeg'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -42,9 +44,9 @@ function About() {
 
                 {/* Purpose Section */}
                 
-                <section data-aos="fade-up" className='m-auto md:flex  md:justify-between md:border-2 md:w-full border-l-gray-300 border-white rounded-xl bg-white/20 lg:px-8 lg:py-8 '>
+                <section data-aos="fade-up" className='m-auto md:flex h-[80vh]  md:justify-between md:border-2 md:w-full border-l-gray-300 border-white rounded-xl bg-white/20 lg:px-8 lg:py-8 '>
                     {/* Image */}
-                    <div>
+                    <div className='self-center'>
                         <img loading='lazy' src={image2} className='w-[700px] max-h-[700px] rounded-lg' alt='Brown haired woman holding up freshly-picked strawberries on a farm' />
                     </div>
                     <div className='md:flex md:px-4 md:py-6 md:justify-center flex-col'>
@@ -77,7 +79,7 @@ function About() {
                 
                 {/* Join the Community Section */}
 
-                <section data-aos="fade-up" className='m-auto md:flex  md:justify-between md:border-2 md:w-full border-l-gray-300 border-white rounded-xl bg-white/20 lg:px-8 lg:py-8 '>
+                <section data-aos="fade-up" className=' h-[60vh] m-auto md:flex  md:justify-between md:border-2 md:w-full border-l-gray-300 border-white rounded-xl bg-white/20 lg:px-8 lg:py-8 '>
                     {/* Image */}
                     <div>
                         <img loading='lazy' src={image4} className='w-[700px] max-h-[700px] rounded-lg' alt='mother and daughter eating fruits in a field' />
@@ -108,7 +110,7 @@ function About() {
                     </div>
 
                     {/* Person grid boxes main container*/}
-                    <div className='grid grid-cols-3 md:gap-24 md:mt-6 font-roboto text-white font-semibold'>
+                    <div className='grid grid-cols-3 md:gap-24 md:mt-12 font-roboto text-white font-semibold'>
 
                         {/* Individual boxes */}
 
@@ -118,7 +120,7 @@ function About() {
                             <div className='flex flex-col max-w-[380px] p-2 gap-8 justify-between items-center bg-white/10 backdrop-blur-lg rounded-lg h-full'>
 
                                 <div className='flex justify-between gap-12 py-4 px-6 rounded-lg border-2 border-black w-full'>
-                                    <div className='w-[120px] h-[120px]  rounded-full border-2 border-gray-500 bg-white'></div> 
+                                    <div className='w-[120px] h-[120px]  rounded-full border-2 border-gray-500 bg-white bg-cover bg-center' style={{ backgroundImage: `url(${noel})` }}></div> 
                                     <h1 className='font-bold text-4xl self-center font-ojuju'>NOEL</h1>
                                 </div>
 
@@ -134,9 +136,9 @@ function About() {
                                 <div className='flex justify-between gap-12 py-4 px-6 bg-white rounded-lg w-full hover:scale-[1.02] hover:border-gray-300 transition-transform ease-in-out'>
                                     <h1 className='font-roboto text-3xl font-bold text-green-500'>Socials:</h1>
                                     <ul className='font-monkey text-xl font-semibold text-gray-700 self-end'>
-                                        <li><a>Github</a></li>
-                                        <li><a>LinkedIn</a></li>
-                                        <li><a>Email</a></li>
+                                        <li className='hover:text-yellow-600' ><a href='https://github.com/Nii-101/' target='blank'>Github</a></li>
+                                        <li className='hover:text-yellow-600'><a href='https://www.linkedin.com/in/n0el-codes'>LinkedIn</a></li>
+                                        <li className='hover:text-yellow-600'><a href='mailto:noelamptey101@gmail.com' target='blank'>Email</a></li>
                                     </ul>
                                 </div>
                                 <div className='flex justify-between gap-12 py-4 px-6 bg-white rounded-lg w-full hover:scale-[1.02] hover:border-gray-300 transition-transform ease-in-out'>
@@ -154,12 +156,12 @@ function About() {
                             <div className='flex flex-col max-w-[380px] gap-8 p-2 justify-between items-center bg-white/10 backdrop-blur-lg rounded-lg h-full'>
 
                                 <div className='flex justify-between gap-12 py-4 px-6 rounded-lg border-2 border-black w-full'>
-                                    <div className='w-[120px] h-[120px]  rounded-full border-2 border-gray-500 bg-white'></div> 
+                                    <div className='w-[120px] h-[120px]  rounded-full border-2 border-gray-500 bg-cover bg-center' style={{ backgroundImage: `url(${kaos})` }}></div> 
                                     <h1 className='font-bold text-4xl self-center font-ojuju'>KAOS</h1>
                                 </div>
 
                                 {/*Role*/}
-                                <div className='flex justify-between items-center py-4 px-6 bg-white rounded-lg w-full hover:scale-[1.02] hover:border-gray-300 transition-transform ease-in-out'>
+                                <div className='cursor-normal flex justify-between items-center py-4 px-6 bg-white rounded-lg w-full hover:scale-[1.02] hover:border-gray-300 transition-transform ease-in-out'>
                                     <h1 className='font-roboto text-3xl font-bold text-green-500 '>Role:</h1>
                                     <ul className='font-monkey text-xl text-gray-700 self-end'>
                                         <li>Backend Dev</li>
@@ -170,12 +172,12 @@ function About() {
                                 <div className='flex justify-between gap-12 py-4 px-6 bg-white rounded-lg w-full hover:scale-[1.02] hover:border-gray-300 transition-transform ease-in-out'>
                                     <h1 className='font-roboto text-3xl font-bold text-green-500'>Socials:</h1>
                                     <ul className='font-monkey text-xl font-semibold text-gray-700 self-end'>
-                                        <li><a>Github</a></li>
-                                        <li><a>LinkedIn</a></li>
-                                        <li><a>Email</a></li>
+                                        <li className='hover:text-yellow-600'><a href='https://github.com/Astrokojo' target='blank' >Github</a></li>
+                                        <li className='hover:text-yellow-600'><a href='https://www.linkedin.com/in/kaosei-sarfo' target='blank'>LinkedIn</a></li>
+                                        <li className='hover:text-yellow-600'><a href='mailto:astrokojo@gmail.com' target='blank'>Email</a></li>
                                     </ul>
                                 </div>
-                                <div className='flex justify-between gap-12 py-4 px-6 bg-white rounded-lg w-full hover:scale-[1.02] hover:border-gray-300 transition-transform ease-in-out'>
+                                <div className='cursor-normal flex justify-between gap-12 py-4 px-6 bg-white rounded-lg w-full hover:scale-[1.02] hover:border-gray-300 transition-transform ease-in-out'>
                                     <h1 className='font-roboto text-3xl font-bold text-green-500'>About:</h1>
                                     <p className='font-monkey text-sm max-w-xs font-semibold text-gray-700 self-end'>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -191,12 +193,12 @@ function About() {
 
                                 <div className='flex justify-between gap-12 py-4 px-6 rounded-lg border-2 border-black w-full'>
                                     <div className='w-[120px] h-[120px]  rounded-full border-2 border-gray-500 bg-white'></div> 
-                                    <h1 className='font-bold text-4xl self-center font-ojuju'>Abdullahi</h1>
+                                    <h1 className='font-bold text-4xl self-center font-ojuju'>Abdullah</h1>
                                 </div>
 
                                 {/*Role*/}
                                 <div className='flex justify-between items-center py-4 px-6 bg-white rounded-lg w-full hover:scale-[1.02] hover:border-gray-300 transition-transform ease-in-out'>
-                                    <h1 className='font-roboto text-3xl font-bold text-green-500 '>Role:</h1>
+                                    <h1 className='cursor-normal font-roboto text-3xl font-bold text-green-500 '>Role:</h1>
                                     <ul className='font-monkey text-xl text-gray-700 self-end'>
                                         <li>DevOps Engineer</li>
                                         <li>Project Manager</li>
@@ -206,14 +208,14 @@ function About() {
                                 <div className='flex justify-between gap-12 py-4 px-6 bg-white rounded-lg w-full hover:scale-[1.02] hover:border-gray-300 transition-transform ease-in-out'>
                                     <h1 className='font-roboto text-3xl font-bold text-green-500'>Socials:</h1>
                                     <ul className='font-monkey text-xl font-semibold text-gray-700 self-end'>
-                                        <li><a>Github</a></li>
-                                        <li><a>LinkedIn</a></li>
-                                        <li><a>Email</a></li>
+                                        <li className='hover:text-yellow-600' ><a href='https://github.com/AbdullahGbale/' target='blank'>Github</a></li>
+                                        <li className='hover:text-yellow-600'><a href='https://www.linkedin.com/in/abdullah-yunusa-3a9a0810a/' target='blank'>LinkedIn</a></li>
+                                        <li className='hover:text-yellow-600'><a href='mailto:bigimarniac@gmail.com' >Email</a></li>
                                     </ul>
                                 </div>
                                 <div className='flex justify-between gap-12 py-4 px-6 bg-white rounded-lg w-full hover:scale-[1.02] hover:border-gray-300 transition-transform ease-in-out'>
                                     <h1 className='font-roboto text-3xl font-bold text-green-500'>About:</h1>
-                                    <p className='font-monkey text-sm max-w-xs font-semibold text-gray-700 self-end'>
+                                    <p  className='font-monkey text-sm max-w-xs font-semibold text-gray-700 self-end'>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                     </p>
                                 </div>
