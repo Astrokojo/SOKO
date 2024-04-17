@@ -3,12 +3,17 @@ import HeaderSm from "./header";
 export default function InForm () {
     return (
         <div className="bg-white px-3 sm:px-10 py-8 sm:py-10 rounded-xl sm:rounded-3xl">
+
+            {/* Imported Header component */}
             <div className="lg:hidden">
                 <HeaderSm/>
             </div>
 
+            {/* Main form design (Header) */}
             <h1 className="text-center lg:font-bold font-semibold font-[ojuju] text-3xl md:text-5xl">Welcome Back</h1>
             <p className="text-center text-2xl lg:text-3xl font-medium mt-8 lg:mt-12">Sign In</p>
+            
+            {/* Form itself */}
             <form className="mt-4 lg:mt-6">
                 <div>
                     <label className="text-lg font-medium" for='email'>Email</label>
