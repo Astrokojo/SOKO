@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.6ceb7b56.css",
-    "main.js": "/static/js/main.f1517657.js",
+    "main.css": "/static/css/main.8c7e8c2d.css",
+    "main.js": "/static/js/main.58744b71.js",
     "static/js/453.a7648e53.chunk.js": "/static/js/453.a7648e53.chunk.js",
     "static/media/eating_together.jpg": "/static/media/eating_together.c9e2c0b769a4b205df28.jpg",
     "static/media/fruit_to_basket.jpg": "/static/media/fruit_to_basket.19bd7906f31b0314755e.jpg",
     "static/media/about-page_1.jpg": "/static/media/about-page_1.f174b7c6790b47c30d80.jpg",
     "static/media/showing_strawberry.jpg": "/static/media/showing_strawberry.c0692be1542315051b63.jpg",
+    "static/media/kaos.jpeg": "/static/media/kaos.28ba8c101ea43d15eac2.jpeg",
+    "static/media/nii-profile.jpeg": "/static/media/nii-profile.84439424e316e60742d2.jpeg",
     "static/media/shopping-cart.svg": "/static/media/shopping-cart.7393a21ac79b2cc3e0b4b8d61bbb634d.svg",
     "static/media/search-icon.svg": "/static/media/search-icon.b146652fba3e0df8f0b5b562166227cc.svg",
     "index.html": "/index.html",
-    "main.6ceb7b56.css.map": "/static/css/main.6ceb7b56.css.map",
-    "main.f1517657.js.map": "/static/js/main.f1517657.js.map",
+    "main.8c7e8c2d.css.map": "/static/css/main.8c7e8c2d.css.map",
+    "main.58744b71.js.map": "/static/js/main.58744b71.js.map",
     "453.a7648e53.chunk.js.map": "/static/js/453.a7648e53.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ceb7b56.css",
-    "static/js/main.f1517657.js"
+    "static/css/main.8c7e8c2d.css",
+    "static/js/main.58744b71.js"
   ]
 }
