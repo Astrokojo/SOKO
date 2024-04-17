@@ -101,7 +101,7 @@ function About() {
 
                 {/* Team info section */}
 
-                <section data-aos="flip" className='md:mb-8 mx-auto'>
+                <section className='md:mt-12  md:mb-12 mx-auto'>
                     {/* Team soko heading */}
                     <div className='flex justify-center'>
                         <h1 className='font-monkey font-bold text-5xl pb-2 border-b-4 border-green-600 '>✨Team Soko🍃</h1>
@@ -113,9 +113,9 @@ function About() {
                         {/* Individual boxes */}
 
                         {/* Nii */}
-                        <div className='bg-green-700 backdrop-blur-lg px-2 py-4 rounded-lg min-w-[200px] min-h-[600px] '>
+                        <div data-aos="fade-up" className='bg-green-700 backdrop-blur-lg px-2 py-4 rounded-lg min-w-[200px] min-h-[600px] '>
 
-                            <div className='flex flex-col max-w-[380px] gap-8 justify-between items-center bg-white/10 backdrop-blur-lg rounded-lg h-full'>
+                            <div className='flex flex-col max-w-[380px] p-2 gap-8 justify-between items-center bg-white/10 backdrop-blur-lg rounded-lg h-full'>
 
                                 <div className='flex justify-between gap-12 py-4 px-6 rounded-lg border-2 border-black w-full'>
                                     <div className='w-[120px] h-[120px]  rounded-full border-2 border-gray-500 bg-white'></div> 
@@ -149,9 +149,9 @@ function About() {
                         </div>
 
                         {/* KAOS */}
-                        <div className='bg-green-700 backdrop-blur-lg px-2 py-4 rounded-lg min-w-[200px] min-h-[600px]'>
+                        <div data-aos="fade-up" className='bg-green-700 backdrop-blur-lg px-2 py-4 rounded-lg min-w-[200px] min-h-[600px]'>
 
-                            <div className='flex flex-col max-w-[380px] gap-8 justify-between items-center bg-white/10 backdrop-blur-lg rounded-lg h-full'>
+                            <div className='flex flex-col max-w-[380px] gap-8 p-2 justify-between items-center bg-white/10 backdrop-blur-lg rounded-lg h-full'>
 
                                 <div className='flex justify-between gap-12 py-4 px-6 rounded-lg border-2 border-black w-full'>
                                     <div className='w-[120px] h-[120px]  rounded-full border-2 border-gray-500 bg-white'></div> 
@@ -185,9 +185,9 @@ function About() {
                         </div>
 
                         {/* Abdullahi */}
-                        <div className='bg-green-700 backdrop-blur-lg px-2 py-4 rounded-lg min-w-[200px] min-h-[600px] '>
+                        <div  data-aos='fade-up' className='bg-green-700 backdrop-blur-lg px-2 py-4 rounded-lg min-w-[200px] min-h-[600px] '>
 
-                            <div className='flex flex-col max-w-[380px] gap-8 justify-between items-center bg-white/10 backdrop-blur-lg rounded-lg h-full'>
+                            <div className='flex flex-col max-w-[380px] gap-8 p-2 justify-between items-center bg-white/10 backdrop-blur-lg rounded-lg h-full'>
 
                                 <div className='flex justify-between gap-12 py-4 px-6 rounded-lg border-2 border-black w-full'>
                                     <div className='w-[120px] h-[120px]  rounded-full border-2 border-gray-500 bg-white'></div> 
