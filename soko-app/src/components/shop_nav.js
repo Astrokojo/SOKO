@@ -30,7 +30,7 @@ export default function ShopNav() {
 
                     <div className='font-medium font-roboto text-2xl'>
                         <ul className='flex gap-8 list-none'>
-                            <li className='active:scale-[.95] active:duration-75 transition-transform ease-in-out  md:hover:scale-[1.1]'><a href='/contact'>Sell</a></li>
+                            <li className='active:scale-[.95] active:duration-75 transition-transform ease-in-out  md:hover:scale-[1.1]'><a href='/sell'>Sell</a></li>
                             <li className='active:scale-[.95] active:duration-75 transition-transform ease-in-out  md:hover:scale-[1.1]'><a href='/about'>About</a></li>
                         </ul>
                     </div>

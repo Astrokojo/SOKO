@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react'
 import NavBar from '../components/nav'
+import Footer from '../components/footer'
 import image1 from '../assets/about-page_1.jpg'
 import image2 from '../assets/showing_strawberry.jpg'
 import image3 from '../assets/fruit_to_basket.jpg'
@@ -103,9 +104,9 @@ function About() {
 
                 {/* Team info section */}
 
-                <section className='md:mt-12  md:mb-12 mx-auto'>
+                <section className='md:mt-12  md:mb-12 mx-auto' >
                     {/* Team soko heading */}
-                    <div className='flex justify-center'>
+                    <div className='flex justify-center' id='team-section'>
                         <h1 className='font-monkey font-bold text-5xl pb-2 border-b-4 border-green-600 '>✨Team Soko🍃</h1>
                     </div>
 
@@ -144,7 +145,7 @@ function About() {
                                 <div className='flex justify-between gap-12 py-4 px-6 bg-white rounded-lg w-full hover:scale-[1.02] hover:border-gray-300 transition-transform ease-in-out'>
                                     <h1 className='font-roboto text-3xl font-bold text-green-500'>About:</h1>
                                     <p className='font-monkey text-sm max-w-xs font-semibold text-gray-700 self-end'>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    A budding full-stack developer, inclined towards the intricacies of the front-end and ready to learn and improve.
                                     </p>
                                 </div>
                             </div>
@@ -228,8 +229,8 @@ function About() {
 
             </div>
 
-            <footer className='bg-green-600 h-[60px] mx-2 mt-2 z-10'>
-                    <div></div>
+            <footer className='z-10'>
+                    <Footer/>
             </footer>
 
         </div>
