@@ -17,7 +17,9 @@ The backend is structured to complement the frontend with a broad array of funct
 Features
 
 User Management: Allows for the creation, updating, and management of user profiles.
+
 Task Management: Enables the addition, updating, and tracking of cart, orders, purchases, transaction history.
+
 Transaction Session Tracking: Facilitates scheduling and managing transaction sessions.
 
 Contributions to Soko farm app are encouraged! Please adhere to the coding standards and include tests for any new features or functionalities.
