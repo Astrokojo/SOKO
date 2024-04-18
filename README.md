@@ -1,4 +1,5 @@
 THE SOKO FARM APP
+
 Welcome to the Soko farm app, a well-established web application designed to swiftly deliver fresh agricultural products from farms directly to consumers. This project is divided into two main sections: the frontend and the backend, each aiming to provide users with a seamless and valuable experience.
 
 OVERVIEW
