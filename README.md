@@ -12,4 +12,12 @@ The frontend of the Soko app is designed to be user-friendly and intuitive. Reac
 
 BACKEND
 
-The backend is structured to complement the frontend with a broad array of functionalities, including user management. It employs Flask as the web framework, SQLAlchemy for database interactions, and Flask-Migrate for database migrations, among other technologies.
+The backend is structured to complement the frontend with a broad array of functionalities, including user management. It employs Flask as the web framework, SQLLite and SQLAlchemy for database interactions, and Flask-Migrate for database migrations, amongst other technologies.
+
+Features
+
+User Management: Allows for the creation, updating, and management of user profiles.
+Task Management: Enables the addition, updating, and tracking of cart, orders, purchases, transaction history.
+Transaction Session Tracking: Facilitates scheduling and managing transaction sessions.
+
+Contributions to Soko farm app are encouraged! Please adhere to the coding standards and include tests for any new features or functionalities.
